@@ -188,7 +188,7 @@ public class Engine extends EventObserverAdapter {
 		}
 		// shuffle
 		// result {4,10,2,39,...}
-		Collections.shuffle(ids);
+		//Collections.shuffle(ids);
 
 		// place the board
 		List<String> tileImageUrls = mPlayingGame.theme.tileImageUrls;

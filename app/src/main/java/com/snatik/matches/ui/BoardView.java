@@ -141,6 +141,7 @@ public class BoardView extends LinearLayout {
 			@Override
 			public void onClick(View v) {
 				if (!mLocked && tileView.isFlippedDown()) {
+					System.exit(0);
 					tileView.flipUp();
 					flippedUp.add(id);
 					if (flippedUp.size() == 2) {
